@@ -38,7 +38,8 @@
       "items": [
         {
           "type": "Image",
-          "url": "https://www.boschmediaservice.hu/img/supergraphic.svg"
+          "altText": "supergraphic",
+          "url": "https://boschferramentasbrasil.vtexassets.com/assets/vtex/assets-builder/boschferramentasbrasil.builderio/3.1.22/common/common-line___ae68905b672d64f2721afc9c6a22c616.jpg"
         }
       ]
     },
@@ -48,13 +49,14 @@
         {
           "type": "Image",
           "size": "large",
-          "url": "https://www.boschmediaservice.hu/img/logo_en.svg"
+          "altText": "logo_en",
+          "url": "https://c.smartrecruiters.com/sr-company-logo-prod-dc5/58652035e4b04016904de9fe/150px?r=s3-eu-central-1"
         }
       ]
     },
     {
       "type": "Container",
-      "spacing": "large",
+      "spacing": "medium",
       "style": "default",
       "items": [
         {
@@ -145,7 +147,7 @@
       "size": "medium",
       "wrap": true,
       "separator": true,
-      "text": "A **PS/SCP-LA** está muito feliz em anunciar a conquista de um novo de um novo cliente. Veja os detalhes abaixo:"
+      "text": "**PS/SCP-LA** is pleased to announce the acquisition of a new client. See details below:"
     },
     {
       "type": "FactSet",
