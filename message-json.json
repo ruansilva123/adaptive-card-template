@@ -35,17 +35,26 @@
     },
     {
       "type": "Container",
-      "bleed": true,
       "items": [
         {
           "type": "Image",
-          "url": "https://www.boschmediaservice.hu/en/download-photo/374"
+          "url": "https://www.boschmediaservice.hu/img/supergraphic.svg"
         }
       ]
     },
     {
       "type": "Container",
-      "spacing": "extraLarge",
+      "items": [
+        {
+          "type": "Image",
+          "size": "large",
+          "url": "https://www.boschmediaservice.hu/img/logo_en.svg"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "large",
       "style": "default",
       "items": [
         {
@@ -136,7 +145,7 @@
       "size": "medium",
       "wrap": true,
       "separator": true,
-      "text": "**PS/SCP-LA** is pleased to announce the acquisition of a new client. See details below:"
+      "text": "A **PS/SCP-LA** está muito feliz em anunciar a conquista de um novo de um novo cliente. Veja os detalhes abaixo:"
     },
     {
       "type": "FactSet",
@@ -160,5 +169,4 @@
         ]
     }
   ]
-
 }
