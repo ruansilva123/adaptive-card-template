@@ -1,0 +1,163 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                    {
+                        "type": "TextBlock",
+                        "text": "@{variables('Customer Group')}",
+                        "weight": "Bolder",
+                        "size": "extraLarge",
+                        "color": "accent"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "Acquisition News",
+                        "size": "Small",
+                        "color": "Default",
+                        "spacing": "None"
+                    }
+                    ]
+                }
+            ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "bleed": true,
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://www.boschmediaservice.hu/en/download-photo/374"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "extraLarge",
+      "style": "default",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Acquisition Project",
+          "horizontalAlignment": "Center",
+          "weight": "Bolder",
+          "size": "large"
+        },
+        {
+          "type": "TextBlock",
+          "text": "@{variables('Sales Project Name')}",
+          "wrap": true,
+          "horizontalAlignment": "Center",
+          "weight": "Bolder",
+          "size": "large"
+        },
+        {
+          "type": "TextBlock",
+          "text": "@{variables('Configuration Name')}",
+          "wrap": true,
+          "horizontalAlignment": "Center",
+          "spacing": "None",
+          "size": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "spacing": "extraLarge",
+      "separator": true,
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Container",
+              "style": "emphasis",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "DOS+5 (mEUR)",
+                  "horizontalAlignment": "Center",
+                  "size": "small"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "@{variables('Dos5')}",
+                  "horizontalAlignment": "Center",
+                  "size": "large",
+                  "weight": "bolder",
+                  "color": "accent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Container",
+              "style": "emphasis",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "EBIT (%)",
+                  "horizontalAlignment": "Center",
+                  "size": "Small"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "@{variables('EBIT(SOP4)')}",
+                  "horizontalAlignment": "Center",
+                  "size": "large",
+                  "weight": "Bolder",
+                  "color": "accent"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "extraLarge",
+      "size": "medium",
+      "wrap": true,
+      "separator": true,
+      "text": "A **PS/SCP-LA** está muito feliz em anunciar a conquista de um novo de um novo cliente. Veja os detalhes abaixo:"
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        { "title": "Product/Service", "value": "@{variables('Product Class')}"},
+        { "title": "Production Plant", "value": "@{variables('Production Plant')}" },
+        { "title": "SOP", "value": "@{variables('EBIT(SOP4)')}" },
+        { "title": "Sold to customer", "value": "@{variables('Customer Group')}" },
+        { "title": "Competitor", "value": "@{variables('Competitor')}" }
+      ]
+    },
+    {
+        "type": "ActionSet",
+        "spacing": "extraLarge",
+        "actions": [
+            {
+            "type": "Action.OpenUrl",
+            "title": "More details & dashboard click here",
+            "url": "https://exemplo.com"
+            }
+        ]
+    }
+  ]
+}
