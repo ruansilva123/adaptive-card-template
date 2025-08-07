@@ -136,7 +136,7 @@
       "size": "medium",
       "wrap": true,
       "separator": true,
-      "text": "A **PS/SCP-LA** está muito feliz em anunciar a conquista de um novo de um novo cliente. Veja os detalhes abaixo:"
+      "text": "**PS/SCP-LA** is pleased to announce the acquisition of a new client. See details below:"
     },
     {
       "type": "FactSet",
@@ -160,4 +160,5 @@
         ]
     }
   ]
+
 }
